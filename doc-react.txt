@@ -1,0 +1,20 @@
+Step 1:
+install node js on your computer
+Step2:
+go to the link https://github.com/facebook/create-react-app
+run this command in vs code terminal
+command:
+    npx create-react-app my-app
+    cd my-app
+    npm start
+
+src folder App.js 
+file write this code to create a component
+import React from 'react';
+
+function App(){
+  return(
+  <div>Hello World</div>
+  );
+}
+export default App;
